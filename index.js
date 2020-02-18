@@ -30,5 +30,6 @@ function totalRevenue(drivers){
 }   
 
 function averageRevenue(drivers){
+    debugger
     return totalRevenue(drivers)/drivers.length;
 }
